@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js/heros.js"></script>
+    <script src="js/js.js"></script>
+    <script 
+async defer 
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQ3ja3FwWokugM5UPytjvJwe-ONKzZPiE&callback=initMap"></script>
+
+</head>
+<body>
+    
+    <form id="formRecherche" style="padding: 20px; width: 300px; background: rgba(0,0,0,0.7); position: fixed; top:50px; left: 0; z-index: 99999">
+    <input id="incident" name="incident" type="search" placeholder="Taper l'adresse de l'incident"/>
+    <input type="submit" value="Rechercher"/>
+    </form>
+    
+    <div id="googleMaps"></div>
+
+</body>
+</html>
